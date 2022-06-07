@@ -1,7 +1,7 @@
 import {
   StyledNavbarElementUnActive,
   StyledNavbarElementActive,
-} from "../styles/Navbar.styled";
+} from "../HeaderStyles/Navbar.styled";
 
 const NavbarElement = ({ text, isActive }) => {
   return (

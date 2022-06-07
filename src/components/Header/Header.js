@@ -3,7 +3,7 @@ import {
   HeaderContentWrapper,
   NavbarWrapper,
   LoggedUserWrapper,
-} from "./styles/Header.styled";
+} from "./HeaderStyles/Header.styled";
 import Navbar from "./Navbar/Navbar";
 import LoggedUser from "./LoggedUser/LoggedUser";
 import OliviaAvatar from "../../img/avatars/OliviaAvatar.png";

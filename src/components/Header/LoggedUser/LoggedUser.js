@@ -1,4 +1,4 @@
-import { StyledLoggedUser } from "../styles/LoggedUser.styled";
+import { StyledLoggedUser } from "../HeaderStyles/LoggedUser.styled";
 import chevronUp from "../../../img/icons/chevronUp.png";
 
 const LoggedUser = ({ user, userAvatar }) => {

@@ -1,6 +1,10 @@
-import { Container } from "./components/styles/Container.styled";
+import {
+  Container,
+  UnderHeaderBackground,
+} from "./mainLayoutStyles/Container.styled";
 import Header from "./components/Header/Header";
-import GlobalStyles from "./components/styles/Global";
+import GlobalStyles from "./mainLayoutStyles/Global";
+import MealPlan from "./components/MealPlan/MealPlan";
 
 function App() {
   return (
@@ -8,6 +12,9 @@ function App() {
       <GlobalStyles />
       <Container>
         <Header />
+        <UnderHeaderBackground>
+          <MealPlan />
+        </UnderHeaderBackground>
       </Container>
     </>
   );

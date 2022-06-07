@@ -12,16 +12,16 @@ export const StyledNavbar = styled.nav`
   font-family: "Helvetica";
   font-weight: 650;
   color: rgb(145, 145, 145);
-  padding: 0 16px;
+  padding: 0 15px;
 `;
 
 export const StyledNavbarElementUnActive = styled.div`
-  padding: 0 14px;
+  padding: 2px 14px 0 14px;
   text-shadow: 0px 0px 1px rgba(175, 175, 175, 0.8);
 `;
 
 export const StyledNavbarElementActive = styled.div`
-  padding: 0 15px;
+  padding: 2px 15px 0 15px;
   color: rgb(255, 150, 42);
   position: relative;
 
@@ -30,7 +30,7 @@ export const StyledNavbarElementActive = styled.div`
     height: 3px;
     border-bottom: 2px solid rgba(255, 150, 42, 0.6);
     position: absolute;
-    top: 19px;
+    top: 21px;
     left: 50px;
   }
 `;
