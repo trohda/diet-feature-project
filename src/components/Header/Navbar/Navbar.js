@@ -1,4 +1,4 @@
-import { StyledNavbar } from "../../styles/Navbar.styled";
+import { StyledNavbar } from "../styles/Navbar.styled";
 import NavbarElement from "./NavbarElement";
 
 const Navbar = () => {
