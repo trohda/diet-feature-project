@@ -1,3 +1,4 @@
+import Navbar from "../Navbar/Navbar";
 import {
   StyledHeader,
   HeaderContentWrapper,
@@ -10,7 +11,9 @@ const Header = () => {
     <>
       <StyledHeader>
         <HeaderContentWrapper>
-          <NavbarWrapper></NavbarWrapper>
+          <NavbarWrapper>
+            <Navbar />
+          </NavbarWrapper>
           <LoggedUserWrapper></LoggedUserWrapper>
         </HeaderContentWrapper>
       </StyledHeader>
