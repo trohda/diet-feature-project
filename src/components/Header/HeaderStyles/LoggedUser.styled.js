@@ -5,7 +5,7 @@ export const StyledLoggedUser = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-right: 24px;
+  margin-right: 21px;
   gap: 1px;
 
   p {

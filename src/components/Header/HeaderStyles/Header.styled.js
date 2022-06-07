@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: white;
   width: 100%;
-  height: 78px;
+  height: 80px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.13);
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 2px;
+  padding-top: 6px;
 `;
 
 export const HeaderContentWrapper = styled.div`
