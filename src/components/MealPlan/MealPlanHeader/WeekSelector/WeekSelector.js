@@ -4,11 +4,14 @@ import arrowLeft from "./img/arrowLeft.png";
 import arrowRight from "./img/arrowRight.png";
 const WeekSelector = () => {
   const [weekNumber, setWeekNumber] = useState(7);
-  const incrementHandlerClick = () => {
+
+  const incrementHandlerClick = (e) => {
+    e.preventDefault();
     setWeekNumber(weekNumber + 1);
   };
 
-  const decrementHandlerClick = () => {
+  const decrementHandlerClick = (e) => {
+    e.preventDefault();
     setWeekNumber(weekNumber - 1);
   };
 
