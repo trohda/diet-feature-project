@@ -11,6 +11,7 @@ export const StyledWeekProgress = styled.div`
     font-family: "Helvetica";
     text-align: left;
     color: rgb(193, 193, 193);
+    margin-bottom: 10px;
   }
 `;
 //
