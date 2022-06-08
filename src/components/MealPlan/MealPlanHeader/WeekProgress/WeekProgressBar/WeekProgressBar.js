@@ -11,21 +11,21 @@ const WeekProgressBar = () => {
       {progressWeeks.map((el) => {
         if (el.isActive) {
           return (
-            <div className="singleWeek">
+            <div key={el.weekId} className="singleWeek">
               <img src={currentImg} alt="progress week icon" />
               <p className="weekId">{el.weekId}</p>
             </div>
           );
         } else if (el.isDone) {
           return (
-            <div className="singleWeek">
+            <div key={el.weekId} className="singleWeek">
               <img src={pastImg} alt="progress week icon" />
               <p className="weekId">{el.weekId}</p>
             </div>
           );
         } else if (!el.isDone) {
           return (
-            <div className="singleWeek">
+            <div key={el.weekId} className="singleWeek">
               <img src={futureImg} alt="progress week icon" />
               <p className="weekId">{el.weekId}</p>
             </div>
