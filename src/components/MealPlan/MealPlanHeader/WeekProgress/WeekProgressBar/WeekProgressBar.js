@@ -1,4 +1,5 @@
-import "./WeekProgressBar.css";
+//
+import { ProgressBarWrapper } from "../../MealPlanHeaderStyles/WeekProgress.styled";
 import { progressWeeks } from "./data/data";
 import pastImg from "./img/past.png";
 import futureImg from "./img/future.png";
@@ -6,7 +7,7 @@ import currentImg from "./img/current.png";
 
 const WeekProgressBar = () => {
   return (
-    <div className="progressBarWrapper">
+    <ProgressBarWrapper>
       {progressWeeks.map((el) => {
         if (el.isActive) {
           return (
@@ -31,7 +32,7 @@ const WeekProgressBar = () => {
           );
         }
       })}
-    </div>
+    </ProgressBarWrapper>
   );
 };
 
