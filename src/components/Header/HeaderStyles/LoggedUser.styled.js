@@ -7,6 +7,7 @@ export const StyledLoggedUser = styled.div`
   justify-content: space-between;
   margin-right: 21px;
   gap: 1px;
+  padding-right: 3px;
 
   p {
     font-size: 0.85rem;
