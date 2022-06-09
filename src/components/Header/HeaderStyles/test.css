@@ -3,4 +3,5 @@ div {
   text-transform: uppercase;
   /* rgb(240, 240, 240) */
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }

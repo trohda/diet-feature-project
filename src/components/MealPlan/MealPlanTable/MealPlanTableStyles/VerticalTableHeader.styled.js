@@ -3,7 +3,7 @@ import verticalHeaderBackground from "../../img/background.png";
 
 export const VerticalTableHeaderWrapper = styled.div`
   background-image: url(${verticalHeaderBackground});
-  width: 83px;
+  width: 86px;
   height: 580px;
   display: flex;
   flex-direction: column;

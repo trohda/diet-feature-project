@@ -10,10 +10,11 @@ export const weeks = [
       { time: "3:00", partOfDay: "PM" },
       { time: "6:00", partOfDay: "PM" },
     ],
-    xdays: [
+    days: [
       {
         dayNumber: 64,
         isGuiltFree: false,
+        carbohydrates: "low-carb",
         meals: [
           {
             mealNumber: 1,
@@ -50,6 +51,7 @@ export const weeks = [
       {
         dayNumber: 65,
         isGuiltFree: false,
+        carbohydrates: "low-carb",
         meals: [
           {
             mealNumber: 1,
@@ -86,6 +88,7 @@ export const weeks = [
       {
         dayNumber: 66,
         isGuiltFree: false,
+        carbohydrates: "high-carb",
         meals: [
           {
             mealNumber: 1,
@@ -123,6 +126,7 @@ export const weeks = [
       {
         dayNumber: 67,
         isGuiltFree: false,
+        carbohydrates: "low-carb",
         meals: [
           {
             mealNumber: 1,
@@ -159,6 +163,7 @@ export const weeks = [
       {
         dayNumber: 68,
         isGuiltFree: false,
+        carbohydrates: "low-carb",
         meals: [
           {
             mealNumber: 1,
@@ -195,6 +200,7 @@ export const weeks = [
       {
         dayNumber: 69,
         isGuiltFree: false,
+        carbohydrates: "high-carb",
         meals: [
           {
             mealNumber: 1,
@@ -232,12 +238,12 @@ export const weeks = [
       {
         dayNumber: 70,
         isGuiltFree: true,
+        carbohydrates: "",
         meals: [],
       },
     ],
 
-    days: [64, 65, 66, 67, 68, 69, 70],
-    meals: {
+    mealsList: {
       bodeShake: {
         name: "Bod•ē Shake",
         activePic: activeBodeShake,

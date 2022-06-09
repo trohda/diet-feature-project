@@ -2,11 +2,8 @@ import { VerticalTableHeaderWrapper } from "../MealPlanTableStyles/VerticalTable
 import workoutArrow from "../../img/workoutArrow.png";
 import MealTime from "./MealTime/MealTime";
 import { weeks } from "../../data/database";
-import { useState } from "react";
 
-const VerticalTableHeader = () => {
-  const [currentWeek, setCurrentWeek] = useState(0);
-
+const VerticalTableHeader = ({ currentWeek }) => {
   return (
     <VerticalTableHeaderWrapper>
       <div className="invisibleHeader"></div>
@@ -16,7 +13,7 @@ const VerticalTableHeader = () => {
             return el.hours.map((element, i) => {
               return <MealTime key={i} time={element} />;
             });
-          }
+          } else return null;
         })}
       </div>
       <div className="footer">
