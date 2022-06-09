@@ -2,7 +2,7 @@ import styled from "styled-components";
 import dietDayFooterBackground from "../../img/background.png";
 
 export const DietDayWrapper = styled.div`
-  width: 128px;
+  width: 127px;
   height: 580px;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,7 @@ export const DietDayHeader = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
 export const DietDayFooter = styled.div`
   width: 100%;
   height: 70px;
@@ -69,5 +70,19 @@ export const DietDayFooter = styled.div`
   }
   .doneBarbells {
     margin-left: 18px;
+  }
+
+  .print {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(130, 130, 130);
+    font-size: 1.15rem;
+    gap: 13px;
+  }
+  .printerImage {
+    padding: 3px 0 0 3px;
   }
 `;

@@ -22,7 +22,7 @@ const DietDay = ({ dayData }) => {
     <>
       <DietDayWrapper>
         <DietDayHeader>{`Day ${dayData.dayNumber}`}</DietDayHeader>
-        {dayData.meals.map()}
+        {/* {dayData.meals.map()} */}
         <Meal />
         <DietDayFooter>
           {dayData.isGuiltFree ? (
