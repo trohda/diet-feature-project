@@ -4,7 +4,7 @@ import happyFace from "../../../img/happyFace.png";
 const GuiltFreeDay = () => {
   return (
     <StyledGuiltFreeDay>
-      <p></p>
+      <p>Guilt-free day</p>
       <img src={happyFace} alt="happyFace" />
     </StyledGuiltFreeDay>
   );

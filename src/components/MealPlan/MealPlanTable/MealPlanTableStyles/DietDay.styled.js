@@ -1,12 +1,10 @@
 import styled from "styled-components";
 import dietDayFooterBackground from "../../img/background.png";
 
-export const DietDayWrapper = styled.div`
+export const StyledDietDay = styled.div`
   width: 126px;
   box-sizing: content-box;
   position: relative;
-  flex-direction: column;
-  justify-content: space-between;
   border-right: 2px solid rgbA(0, 0, 0, 0);
 
   .activeBorder {
@@ -28,7 +26,6 @@ export const DietDayHeader = styled.div`
   text-transform: uppercase;
   width: 100%;
   height: 50px;
-
   color: ${({ textColor }) => textColor};
   display: flex;
   flex-direction: row;

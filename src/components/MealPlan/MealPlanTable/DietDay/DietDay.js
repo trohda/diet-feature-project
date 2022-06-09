@@ -1,5 +1,5 @@
 import {
-  DietDayWrapper,
+  StyledDietDay,
   DietDayFooter,
   DietDayHeader,
 } from "../MealPlanTableStyles/DietDay.styled";
@@ -20,13 +20,16 @@ const DietDay = ({ dayData }) => {
   };
   return (
     <>
-      <DietDayWrapper>
+      <StyledDietDay>
         {dayData.isCurrent && <div className="activeBorder"></div>}
         <DietDayHeader
           textColor={
             dayData.isCurrent ? "rgb(255, 128, 26)" : "rgb(173, 187, 12)"
           }
-        >{`Day ${dayData.dayNumber}`}</DietDayHeader>
+        >
+          {`Day ${dayData.dayNumber}`}
+        </DietDayHeader>
+
         {dayData.isGuiltFree ? (
           <GuiltFreeDay />
         ) : (
@@ -73,7 +76,7 @@ const DietDay = ({ dayData }) => {
             </>
           )}
         </DietDayFooter>
-      </DietDayWrapper>
+      </StyledDietDay>
     </>
   );
 };
