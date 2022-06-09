@@ -9,10 +9,10 @@ import workoutCheck from "../../img/workoutCheck.png";
 import printer from "../../img/printer.png";
 import { useState } from "react";
 import Meal from "./Meal/Meal";
+import GuiltFreeDay from "./GuiltFreeDay/GuiltFreeDay";
 
 const DietDay = ({ dayData }) => {
   const [workoutDone, setWorkoutDone] = useState(false);
-  //   console.log(dayData.meals);
 
   const handlerWorkoutDone = (e) => {
     e.preventDefault();
@@ -21,9 +21,24 @@ const DietDay = ({ dayData }) => {
   return (
     <>
       <DietDayWrapper>
-        <DietDayHeader>{`Day ${dayData.dayNumber}`}</DietDayHeader>
-        {/* {dayData.meals.map()} */}
-        <Meal />
+        {dayData.isCurrent && <div className="activeBorder"></div>}
+        <DietDayHeader
+          textColor={
+            dayData.isCurrent ? "rgb(255, 128, 26)" : "rgb(173, 187, 12)"
+          }
+        >{`Day ${dayData.dayNumber}`}</DietDayHeader>
+        {dayData.isGuiltFree ? (
+          <GuiltFreeDay />
+        ) : (
+          <>
+            {dayData.meals.map((el, ind) => {
+              return (
+                <Meal key={ind} dayMeals={el} isCurrent={dayData.isCurrent} />
+              );
+            })}
+          </>
+        )}
+
         <DietDayFooter>
           {dayData.isGuiltFree ? (
             <>

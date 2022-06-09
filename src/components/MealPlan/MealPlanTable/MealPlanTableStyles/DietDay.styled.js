@@ -2,12 +2,20 @@ import styled from "styled-components";
 import dietDayFooterBackground from "../../img/background.png";
 
 export const DietDayWrapper = styled.div`
-  width: 127px;
-  height: 580px;
-  display: flex;
+  width: 126px;
+  box-sizing: content-box;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   border-right: 2px solid rgbA(0, 0, 0, 0);
+
+  .activeBorder {
+    width: 100%;
+    height: 99.3%;
+    position: absolute;
+    left: -2px;
+    border: 2px solid rgb(255, 128, 26);
+  }
 
   &:last-child {
     border-right: none;
@@ -20,8 +28,8 @@ export const DietDayHeader = styled.div`
   text-transform: uppercase;
   width: 100%;
   height: 50px;
-  border-bottom: 2px solid rgbA(0, 0, 0, 0);
-  color: rgb(173, 187, 12);
+
+  color: ${({ textColor }) => textColor};
   display: flex;
   flex-direction: row;
   justify-content: center;
