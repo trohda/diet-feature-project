@@ -8,7 +8,7 @@ export const StyledWeekProgress = styled.div`
   h3 {
     text-transform: uppercase;
     font-size: 0.565rem;
-    font-family: "Helvetica";
+
     text-align: left;
     color: rgb(193, 193, 193);
     margin-bottom: 10px;
@@ -32,7 +32,7 @@ export const ProgressBarWrapper = styled.div`
 
   .weekId {
     font-size: 0.565rem;
-    font-family: "Helvetica";
+
     text-align: left;
     color: rgb(193, 193, 193);
     text-align: center;

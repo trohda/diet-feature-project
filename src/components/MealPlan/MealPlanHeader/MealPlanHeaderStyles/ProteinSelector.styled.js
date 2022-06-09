@@ -11,7 +11,7 @@ export const StyledProteinProgres = styled.div`
   h3 {
     text-transform: uppercase;
     font-size: 0.565rem;
-    font-family: "Helvetica";
+
     text-align: left;
     color: rgb(193, 193, 193);
     margin-bottom: 10px;

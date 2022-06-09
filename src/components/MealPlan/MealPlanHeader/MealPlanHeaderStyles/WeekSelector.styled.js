@@ -11,7 +11,7 @@ export const StyledWeekSelector = styled.div`
 
   h2 {
     font-size: 3rem;
-    font-family: "Helvetica";
+
     color: rgb(255, 148, 40);
     text-align: center;
     padding-top: 5px;

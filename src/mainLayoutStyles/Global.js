@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,14 +26,18 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'helvetica-neue-lt-std-24', sans-serif;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	font-family: 'helvetica-neue-lt-std-24', sans-serif;
 }
 body {
 	line-height: 1;
+	font-family: 'helvetica-neue-lt-std-24', sans-serif;
 }
 ol, ul {
 	list-style: none;

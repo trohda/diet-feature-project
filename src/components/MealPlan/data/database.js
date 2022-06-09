@@ -3,7 +3,14 @@ import inActiveBodeShake from "../img/bodeShakeLight.png";
 export const weeks = [
   {
     weekNumber: 7,
-    hours: ["6:00 AM", "9:00 AM", "12:00 AM", "3:00 PM", "6:00 PM"],
+    hours: [
+      { time: "6:00", partOfDay: "AM" },
+      { time: "9:00", partOfDay: "AM" },
+      { time: "12:00", partOfDay: "PM" },
+      { time: "3:00", partOfDay: "PM" },
+      { time: "6:00", partOfDay: "PM" },
+    ],
+
     days: [64, 65, 66, 67, 68, 69, 70],
     meals: {
       bodeShake: {
