@@ -11,13 +11,13 @@ export const StyledFooterElement = styled.div`
 
     color: rgb(145, 145, 145);
     border: none;
-    padding: 10px 20px 7px 22px;
+    padding: 10px 55px 7px 22px;
   }
   .header {
     font-size: 1.68rem;
   }
   p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.3rem;
   }
   .buttons {

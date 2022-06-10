@@ -14,13 +14,12 @@ export const StyledFooter = styled.footer`
 
   & > div:last-child {
     border-left: 1px solid lightgrey;
-    padding-left: 17px;
+    padding-left: 16px;
   }
 `;
 
 export const StyledFooterButton = styled.button`
   border: 1px solid rgb(184, 184, 184);
-
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0);
   width: ${({ width }) => width};
