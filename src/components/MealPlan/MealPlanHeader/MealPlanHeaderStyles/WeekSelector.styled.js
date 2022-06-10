@@ -35,9 +35,8 @@ export const StyledWeekSelector = styled.div`
     padding-top: 3px;
     cursor: pointer;
     transition: all 0.5s ease;
-    position: relative;
+
     display: inline-block;
-    overflow: hidden;
   }
 
   .right button:hover {

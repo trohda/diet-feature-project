@@ -16,6 +16,7 @@ const Footer = () => {
         <StyledFooterButton width={"110px"}>
           <p> Buy now</p>
           <img src={arrow} alt="arrow" />
+          <span></span>
         </StyledFooterButton>
       </FooterElement>
       <FooterElement
@@ -28,11 +29,13 @@ const Footer = () => {
           <img src={apple} alt="apple" />
           <p>iOS</p>
           <img src={arrow} alt="arrow" />
+          <span></span>
         </StyledFooterButton>
         <StyledFooterButton width={"130px"}>
           <img src={android} alt="android" />
           <p>Android</p>
           <img src={arrow} alt="arrow" />
+          <span></span>
         </StyledFooterButton>
       </FooterElement>
       <FooterElement
@@ -44,6 +47,7 @@ const Footer = () => {
         <StyledFooterButton width={"129px"}>
           <p>Read FAQs</p>
           <img src={arrow} alt="arrow" />
+          <span></span>
         </StyledFooterButton>
       </FooterElement>
     </StyledFooter>
