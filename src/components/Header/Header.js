@@ -6,7 +6,7 @@ import {
 } from "./HeaderStyles/Header.styled";
 import Navbar from "./Navbar/Navbar";
 import LoggedUser from "./LoggedUser/LoggedUser";
-import OliviaAvatar from "../../img/avatars/OliviaAvatar.png";
+import OliviaAvatar from "./img/avatars/OliviaAvatar.png";
 import { useState } from "react";
 
 const Header = () => {
