@@ -11,6 +11,7 @@ export const StyledDietDay = styled.div`
     width: 100%;
     height: 99.3%;
     position: absolute;
+    top: 0;
     left: -2px;
     border: 2px solid rgb(255, 128, 26);
   }
@@ -33,7 +34,7 @@ export const DietDayHeader = styled.div`
   align-items: center;
 `;
 
-export const DietDayFooter = styled.div`
+export const StyledDietDayFooter = styled.div`
   width: 100%;
   height: 70px;
   display: flex;
@@ -55,28 +56,6 @@ export const DietDayFooter = styled.div`
     color: rgb(130, 130, 130);
   }
 
-  .workout {
-    width: 100%;
-    height: 33px;
-    border-top: 2px solid #d3d3d3;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-  .workoutImageWrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3px;
-    gap: 8px;
-  }
-  .doneBarbells {
-    margin-left: 18px;
-  }
-
   .print {
     height: 100%;
     display: flex;
@@ -89,5 +68,28 @@ export const DietDayFooter = styled.div`
   }
   .printerImage {
     padding: 3px 0 0 3px;
+  }
+`;
+export const Workout = styled.div`
+  width: 100%;
+  height: 33px;
+  border-top: 2px solid #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+
+  .workoutImageWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    gap: 8px;
+  }
+  .doneBarbells {
+    margin-left: 18px;
   }
 `;

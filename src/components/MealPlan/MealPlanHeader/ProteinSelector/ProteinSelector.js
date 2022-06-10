@@ -1,5 +1,5 @@
 import {
-  StyledProteinProgres,
+  StyledProteinSelector,
   StyledTypeOfProteinWrapper,
 } from "../MealPlanHeaderStyles/ProteinSelector.styled";
 import TypeOfProtein from "./TypeOfProtein/TypeOfProtein";
@@ -29,7 +29,7 @@ const ProteinSelector = () => {
 
   return (
     <>
-      <StyledProteinProgres>
+      <StyledProteinSelector>
         <div className="contentWrapper">
           <h3>Select your protein options</h3>
           <StyledTypeOfProteinWrapper>
@@ -70,7 +70,7 @@ const ProteinSelector = () => {
             />
           </StyledTypeOfProteinWrapper>
         </div>
-      </StyledProteinProgres>
+      </StyledProteinSelector>
     </>
   );
 };

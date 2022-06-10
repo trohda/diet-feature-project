@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledProteinProgres = styled.div`
+export const StyledProteinSelector = styled.div`
   width: 327px;
   height: 60px;
   display: flex;
@@ -28,4 +28,8 @@ export const StyledTypeOfProteinWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 15px;
+
+  img {
+    cursor: pointer;
+  }
 `;
