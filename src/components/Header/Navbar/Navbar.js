@@ -12,11 +12,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-/* <ul>
-        <li>
-          DASHBOARD
-          <div className="underLine"></div>
-        </li>
-        <li>RECIPES</li>
-        <li>CHALLENGE</li>
-      </ul> */

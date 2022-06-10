@@ -11,7 +11,9 @@ const NavbarElement = ({ text, isActive }) => {
           {text} <div className="underLine"></div>
         </StyledNavbarElementActive>
       ) : (
-        <StyledNavbarElementUnActive>{text}</StyledNavbarElementUnActive>
+        <StyledNavbarElementUnActive>
+          <p>{text}</p>
+        </StyledNavbarElementUnActive>
       )}
     </>
   );

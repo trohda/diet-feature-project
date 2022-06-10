@@ -17,6 +17,14 @@ export const StyledNavbar = styled.nav`
 export const StyledNavbarElementUnActive = styled.div`
   padding: 2px 12px 0 16px;
   text-shadow: 0px 0px 1px rgba(175, 175, 175, 0.8);
+  p {
+    transition: transform 0.25s ease-in;
+  }
+
+  p:hover {
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+  }
 `;
 
 export const StyledNavbarElementActive = styled.div`
