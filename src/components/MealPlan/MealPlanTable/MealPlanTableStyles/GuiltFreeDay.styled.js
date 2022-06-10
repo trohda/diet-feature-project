@@ -13,8 +13,8 @@ export const StyledGuiltFreeDay = styled.div`
 
   p {
     margin-left: 3px;
-    margin-top: 6px;
-    font-size: 2rem;
+    margin-top: 3px;
+    font-size: 2.1rem;
 
     color: rgb(194, 194, 194);
     text-transform: uppercase;

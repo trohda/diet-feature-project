@@ -5,6 +5,7 @@ import {
 import Header from "./components/Header/Header";
 import GlobalStyles from "./mainLayoutStyles/Global";
 import MealPlan from "./components/MealPlan/MealPlan";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <UnderHeaderBackground>
           <MealPlan />
+          <Footer />
         </UnderHeaderBackground>
       </Container>
     </>
