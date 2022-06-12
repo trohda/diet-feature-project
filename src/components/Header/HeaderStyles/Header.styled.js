@@ -38,6 +38,7 @@ export const NavbarWrapper = styled.div`
   justify-content: flex-end;
   width: 50%;
   height: 100%;
+
   @media only screen and (max-width: 768px) {
     & {
       justify-content: center;

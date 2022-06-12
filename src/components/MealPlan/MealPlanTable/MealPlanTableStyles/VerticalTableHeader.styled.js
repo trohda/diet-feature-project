@@ -42,6 +42,7 @@ export const VerticalTableHeaderWrapper = styled.div`
   .footerWorkoutSpan p {
     margin: 0 6px 0 8px;
   }
+
   .timesWrapper div:last-child {
     border-bottom: none;
   }

@@ -15,12 +15,12 @@ export const StyledGuiltFreeDay = styled.div`
     margin-left: 3px;
     margin-top: 3px;
     font-size: 2.1rem;
-
     color: rgb(194, 194, 194);
     text-transform: uppercase;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
   }
+
   img {
     padding: 25px 0 0 1px;
   }

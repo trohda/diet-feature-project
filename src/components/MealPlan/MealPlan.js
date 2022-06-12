@@ -5,8 +5,9 @@ import MealPlanTable from "./MealPlanTable/MealPlanTable";
 
 const MealPlan = () => {
   const [currentWeek, setCurrentWeek] = useState(0);
+
   //MOBILE DETECTOR
-  const [isMobile, setIsMobile] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(
     () =>
       window.addEventListener("resize", function () {
@@ -19,6 +20,7 @@ const MealPlan = () => {
     var viewportWidth = window.innerWidth;
     setIsMobile(viewportWidth <= 1024 ? true : false);
   });
+
   return (
     <StyledMealPlan>
       <MealPlanHeader isMobile={isMobile} currentWeek={currentWeek} />

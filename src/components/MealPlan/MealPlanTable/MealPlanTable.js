@@ -2,7 +2,6 @@ import DietDay from "./DietDay/DietDay";
 import { MealPlanTableWrapper } from "./MealPlanTableStyles/MealPlanTable.styled";
 import VerticalTableHeader from "./VerticalTableHeader.js/VerticalTableHeader";
 import { weeks } from "../data/database";
-import { useState } from "react";
 const MealPlanTable = ({ isMobile, currentWeek }) => {
   return (
     <MealPlanTableWrapper>

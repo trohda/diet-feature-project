@@ -12,6 +12,7 @@ export const StyledWeekProgress = styled.div`
     color: rgb(193, 193, 193);
     margin-bottom: 10px;
   }
+
   @media only screen and (max-width: 1024px) {
     & {
       min-width: 0px;
@@ -36,18 +37,19 @@ export const ProgressBarWrapper = styled.div`
   .singleWeek:first-child {
     margin-left: -5px;
   }
+
   .singleWeek:last-child {
     margin-right: -5px;
   }
 
   .weekId {
     font-size: 0.565rem;
-
     text-align: left;
     color: rgb(193, 193, 193);
     text-align: center;
     padding: 2px 0 0 2px;
   }
+
   @media only screen and (max-width: 1024px) {
     & {
       align-items: center;

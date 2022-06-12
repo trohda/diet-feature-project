@@ -8,11 +8,11 @@ export const StyledNavbar = styled.nav`
   display: flex;
   flex-direction: row;
   align-items: center;
-
   gap: 2px;
   font-weight: 650;
   color: rgb(145, 145, 145);
   padding: 0 15px;
+
   @media only screen and (max-width: 461px) {
     & {
       padding: 0;
@@ -23,6 +23,7 @@ export const StyledNavbar = styled.nav`
 export const StyledNavbarElementUnActive = styled.div`
   padding: 2px 12px 0 16px;
   text-shadow: 0px 0px 1px rgba(175, 175, 175, 0.8);
+
   p {
     transition: transform 0.25s ease-in;
   }

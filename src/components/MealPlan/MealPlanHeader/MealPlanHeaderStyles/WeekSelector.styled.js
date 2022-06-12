@@ -28,6 +28,7 @@ export const StyledWeekSelector = styled.div`
     display: flex;
     flex-direction: row;
   }
+
   .right {
     justify-content: flex-end;
   }

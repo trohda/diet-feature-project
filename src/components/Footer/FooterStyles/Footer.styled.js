@@ -58,7 +58,6 @@ export const StyledFooterButton = styled.button`
 
   span {
     position: relative;
-
     transition: all 0.5s ease;
   }
 

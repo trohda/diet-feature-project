@@ -15,6 +15,7 @@ export const StyledProteinSelector = styled.div`
     color: rgb(193, 193, 193);
     margin-bottom: 10px;
   }
+
   .contentWrapper {
     margin-top: 6px;
     margin-right: 4px;

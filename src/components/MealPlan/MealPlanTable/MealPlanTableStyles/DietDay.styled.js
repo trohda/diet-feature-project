@@ -49,6 +49,7 @@ export const StyledDietDayFooter = styled.div`
     justify-content: center;
     align-items: center;
   }
+
   .carbs p {
     text-transform: uppercase;
     font-size: 0.7rem;
@@ -66,10 +67,12 @@ export const StyledDietDayFooter = styled.div`
     font-size: 1.15rem;
     gap: 13px;
   }
+
   .printerImage {
     padding: 3px 0 0 3px;
   }
 `;
+
 export const Workout = styled.div`
   width: 100%;
   height: 33px;
@@ -89,6 +92,7 @@ export const Workout = styled.div`
     padding-bottom: 3px;
     gap: 8px;
   }
+
   .doneBarbells {
     margin-left: 18px;
   }
