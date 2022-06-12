@@ -20,6 +20,12 @@ export const StyledProteinSelector = styled.div`
     margin-top: 6px;
     margin-right: 4px;
   }
+
+  @media only screen and (max-width: 1024px) {
+    & {
+      align-items: center;
+    }
+  }
 `;
 
 export const StyledTypeOfProteinWrapper = styled.div`

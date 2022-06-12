@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  box-sizing: border-box;
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -15,6 +14,25 @@ export const StyledFooter = styled.footer`
   & > div:last-child {
     border-left: 1px solid lightgrey;
     padding-left: 16px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    & {
+      width: 100%px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & > div:first-child {
+        border-right: none;
+      }
+
+      & > div:last-child {
+        border-left: none;
+        padding-left: 0px;
+      }
+    }
   }
 `;
 

@@ -14,18 +14,16 @@ const Header = () => {
   const [userAvatar, setUserAvatar] = useState(OliviaAvatar);
 
   return (
-    <>
-      <StyledHeader>
-        <HeaderContentWrapper>
-          <NavbarWrapper>
-            <Navbar />
-          </NavbarWrapper>
-          <LoggedUserWrapper>
-            <LoggedUser user={userName} userAvatar={userAvatar} />
-          </LoggedUserWrapper>
-        </HeaderContentWrapper>
-      </StyledHeader>
-    </>
+    <StyledHeader>
+      <HeaderContentWrapper>
+        <NavbarWrapper>
+          <Navbar />
+        </NavbarWrapper>
+        <LoggedUserWrapper>
+          <LoggedUser user={userName} userAvatar={userAvatar} />
+        </LoggedUserWrapper>
+      </HeaderContentWrapper>
+    </StyledHeader>
   );
 };
 

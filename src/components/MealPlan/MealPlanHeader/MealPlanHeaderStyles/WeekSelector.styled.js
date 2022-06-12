@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 export const StyledWeekSelector = styled.div`
-  width: 327px;
+  min-width: 327px;
   height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 2px;
+
+  @media only screen and (max-width: 1024px) {
+    & {
+      width: 32px;
+    }
+  }
 
   h2 {
     font-size: 3rem;

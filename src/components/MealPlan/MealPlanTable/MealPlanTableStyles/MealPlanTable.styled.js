@@ -6,4 +6,10 @@ export const MealPlanTableWrapper = styled.div`
   border-radius: 4px;
   display: flex;
   flex-direction: row;
+
+  @media only screen and (max-width: 1024px) {
+    & {
+      display: none;
+    }
+  }
 `;

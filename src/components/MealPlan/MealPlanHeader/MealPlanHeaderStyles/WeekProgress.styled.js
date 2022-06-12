@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledWeekProgress = styled.div`
-  width: 327px;
+  min-width: 327px;
   height: 60px;
   padding: 17px 0 0 5px;
 
@@ -12,6 +12,13 @@ export const StyledWeekProgress = styled.div`
     text-align: left;
     color: rgb(193, 193, 193);
     margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 1024px) {
+    & {
+      min-width: 0px;
+      align-items: center;
+      padding-left: 0;
+    }
   }
 `;
 
@@ -37,5 +44,10 @@ export const ProgressBarWrapper = styled.div`
     color: rgb(193, 193, 193);
     text-align: center;
     padding: 2px 0 0 2px;
+  }
+  @media only screen and (max-width: 1024px) {
+    & {
+      align-items: center;
+    }
   }
 `;
