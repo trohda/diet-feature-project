@@ -7,7 +7,7 @@ export const StyledMealPlan = styled.div`
   align-items: center;
   @media only screen and (max-width: 1024px) {
     & {
-      width: 100%px;
+      width: 100%;
     }
   }
 `;

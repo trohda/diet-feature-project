@@ -58,7 +58,7 @@ export const weeks = [
         dayNumber: 65,
         isGuiltFree: false,
         carbohydrates: "low-carb",
-        isCurrent: true,
+        isCurrent: false,
         meals: [
           {
             mealNumber: 1,
@@ -275,7 +275,7 @@ export const weeks = [
         dayNumber: 70,
         isGuiltFree: true,
         carbohydrates: "",
-        isCurrent: false,
+        isCurrent: true,
         meals: [],
       },
     ],

@@ -9,7 +9,7 @@ export const MealPlanTableWrapper = styled.div`
 
   @media only screen and (max-width: 1024px) {
     & {
-      display: none;
+      transform: scale(0.67);
     }
   }
 `;
