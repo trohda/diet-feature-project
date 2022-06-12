@@ -16,41 +16,42 @@ export const weeks = [
         isGuiltFree: false,
         carbohydrates: "low-carb",
         isCurrent: false,
+        isWorkoutDone: true,
         meals: [
           {
             mealNumber: 1,
             mealName: "Bod•ē Shake",
             activeMealPic: activeBodeShake,
             inActiveMealPic: inActiveBodeShake,
-            isEaten: false,
+            isEaten: true,
           },
           {
             mealNumber: 2,
             mealName: "Ham and Swiss Roll Ups",
             activeMealPic: null,
             inActiveMealPic: null,
-            isEaten: false,
+            isEaten: true,
           },
           {
             mealNumber: 3,
             mealName: "Turkey Melt",
             activeMealPic: null,
             inActiveMealPic: null,
-            isEaten: false,
+            isEaten: true,
           },
           {
             mealNumber: 4,
             mealName: "Bod•ē Burn with Mozzarella and Tomato Slices",
             activeMealPic: null,
             inActiveMealPic: null,
-            isEaten: false,
+            isEaten: true,
           },
           {
             mealNumber: 5,
             mealName: "Turkey Melt",
             activeMealPic: null,
             inActiveMealPic: null,
-            isEaten: false,
+            isEaten: true,
           },
         ],
       },
@@ -59,6 +60,7 @@ export const weeks = [
         isGuiltFree: false,
         carbohydrates: "low-carb",
         isCurrent: true,
+        isWorkoutDone: true,
         meals: [
           {
             mealNumber: 1,
@@ -102,6 +104,7 @@ export const weeks = [
         isGuiltFree: false,
         carbohydrates: "high-carb",
         isCurrent: false,
+        isWorkoutDone: false,
         meals: [
           {
             mealNumber: 1,
@@ -146,6 +149,7 @@ export const weeks = [
         isGuiltFree: false,
         carbohydrates: "low-carb",
         isCurrent: false,
+        isWorkoutDone: false,
         meals: [
           {
             mealNumber: 1,
@@ -189,6 +193,7 @@ export const weeks = [
         isGuiltFree: false,
         carbohydrates: "low-carb",
         isCurrent: false,
+        isWorkoutDone: false,
         meals: [
           {
             mealNumber: 1,
@@ -232,6 +237,7 @@ export const weeks = [
         isGuiltFree: false,
         carbohydrates: "high-carb",
         isCurrent: false,
+        isWorkoutDone: false,
         meals: [
           {
             mealNumber: 1,
@@ -276,6 +282,7 @@ export const weeks = [
         isGuiltFree: true,
         carbohydrates: "",
         isCurrent: false,
+        isWorkoutDone: false,
         meals: [],
       },
     ],

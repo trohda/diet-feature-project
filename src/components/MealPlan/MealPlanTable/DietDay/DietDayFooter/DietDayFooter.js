@@ -9,8 +9,7 @@ import printer from "../../../img/printer.png";
 import { useState } from "react";
 
 const DietDayFooter = ({ dayData }) => {
-  const [workoutDone, setWorkoutDone] = useState(false);
-
+  const [workoutDone, setWorkoutDone] = useState(dayData.isWorkoutDone);
   const handlerWorkoutDone = (e) => {
     e.preventDefault();
     setWorkoutDone(!workoutDone);

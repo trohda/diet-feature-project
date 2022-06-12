@@ -3,7 +3,7 @@ import { StyledMeal } from "../../MealPlanTableStyles/Meal.styled";
 import mealCompleted from "../../../img/mealCompleted.png";
 
 const Meal = ({ dayMeals, isCurrent }) => {
-  const [isMealEaten, setIsMealEaten] = useState(false);
+  const [isMealEaten, setIsMealEaten] = useState(dayMeals.isEaten);
   const handlerMealEaten = (e) => {
     e.preventDefault();
     setIsMealEaten(!isMealEaten);
