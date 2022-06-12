@@ -11,7 +11,6 @@ export const StyledProteinSelector = styled.div`
   h3 {
     text-transform: uppercase;
     font-size: 0.565rem;
-
     text-align: left;
     color: rgb(193, 193, 193);
     margin-bottom: 10px;
@@ -24,6 +23,9 @@ export const StyledProteinSelector = styled.div`
   @media only screen and (max-width: 1024px) {
     & {
       align-items: center;
+    }
+    h3 {
+      text-align: center;
     }
   }
 `;

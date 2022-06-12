@@ -9,20 +9,22 @@ export const StyledFooter = styled.footer`
 
   & > div:first-child {
     border-right: 1px solid lightgrey;
+    padding-left: 1px;
   }
 
   & > div:last-child {
     border-left: 1px solid lightgrey;
     padding-left: 16px;
+    margin-left: 40px;
   }
 
   @media only screen and (max-width: 1024px) {
     & {
-      width: 100%px;
-      display: flex;
+      width: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: -45px;
 
       & > div:first-child {
         border-right: none;

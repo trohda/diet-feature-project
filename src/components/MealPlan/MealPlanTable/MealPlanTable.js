@@ -2,25 +2,8 @@ import DietDay from "./DietDay/DietDay";
 import { MealPlanTableWrapper } from "./MealPlanTableStyles/MealPlanTable.styled";
 import VerticalTableHeader from "./VerticalTableHeader.js/VerticalTableHeader";
 import { weeks } from "../data/database";
-import { useEffect, useState } from "react";
-const MealPlanTable = () => {
-  const [currentWeek, setCurrentWeek] = useState(0);
-
-  //MOBILE DETECTOR
-  const [isMobile, setIsMobile] = useState(true);
-  useEffect(
-    () =>
-      window.addEventListener("resize", function () {
-        var viewportWidth = window.innerWidth;
-        setIsMobile(viewportWidth <= 1024 ? true : false);
-      }),
-    []
-  );
-  window.addEventListener("resize", function () {
-    var viewportWidth = window.innerWidth;
-    setIsMobile(viewportWidth <= 1024 ? true : false);
-  });
-
+import { useState } from "react";
+const MealPlanTable = ({ isMobile, currentWeek }) => {
   return (
     <MealPlanTableWrapper>
       <VerticalTableHeader currentWeek={currentWeek} />
@@ -49,9 +32,9 @@ const MealPlanTable = () => {
                   } else {
                     return (
                       <>
-                        <DietDay key={i - 1} dayData={arr[i - 1]} />
-                        <DietDay key={i} dayData={element} />
-                        <DietDay key={i + 1} dayData={arr[i + 1]} />
+                        <DietDay dayData={arr[i - 1]} />
+                        <DietDay dayData={element} />
+                        <DietDay dayData={arr[i + 1]} />
                       </>
                     );
                   }

@@ -8,7 +8,6 @@ export const StyledWeekProgress = styled.div`
   h3 {
     text-transform: uppercase;
     font-size: 0.565rem;
-
     text-align: left;
     color: rgb(193, 193, 193);
     margin-bottom: 10px;
@@ -18,6 +17,10 @@ export const StyledWeekProgress = styled.div`
       min-width: 0px;
       align-items: center;
       padding-left: 0;
+    }
+
+    h3 {
+      text-align: center;
     }
   }
 `;
